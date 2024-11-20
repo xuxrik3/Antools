@@ -315,14 +315,67 @@ color: #FFA537;
 
 /* BRAND */
 .brand{
-    height: 253px;
+    height: 453px;
 }
-.brand-text{
+.brand-content{
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.05);
+  background: rgba(44, 53, 61, 0.20);
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+.brand-content h2{
+margin-top: 40px;
+text-align: center;
+color: rgba(255, 255, 255, 0.80);
+font-family: 'Poppins';
+font-size: 24px;
+font-weight: 500;
+}
+/* .brand-logo{
 
-}
-.brand-logo{
-
-}
+} */
 .brand-logo img{
-  
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+/* newcomer */
+.newcomer{
+  height: 700px;
+}
+.newcomer-content-left{
+ text-align: left;
+ margin-top: 30px;
+}
+.newcomer-content-left h1{
+  color: rgba(255, 255, 255, 0.90);
+  font-family: 'Poppins';
+  font-size: 48px;
+}
+.newcomer-content-left p{
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+.newcomer-content-left button{
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 18px;
+  margin-top: 60px;
+  border-radius: 8px;
+  background: #FF6E30;
+  padding: 15px 25px;
+}
+.newcomer-content-right{
+
+  float: right;
+}
+.newcomer-content{
+
+}
+.newcomer-item{
+  display: flex;
 }
