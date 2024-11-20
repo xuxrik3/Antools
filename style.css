@@ -169,10 +169,11 @@ body {
 
 /* Most Popular Tools */
 .popular {
-  height: 1109px;
+  height: 1209px;
 }
 .popular-text {
-  padding-top: 200px;
+  padding-top: 140px;
+  margin-bottom: 110px;
 }
 .popular-text h1 {
   color: rgba(255, 255, 255, 0.9);
@@ -186,8 +187,128 @@ body {
 .popular-text p {
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 18px;
-  font-style: normal;
   line-height: 30px;
+  margin: 10px 0 20px;
+}
+/* .popular-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+} */
+.group-popular{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 60px;
+}
+.popular-poster{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.popular-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+
+ width: 392px;
+ height: 294px;
+  border: 1px solid red;
+  /* position: relative; */
+  align-items:  flex-start;
+  margin-left: 25px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.popular-item:hover{
+  border-radius: 10px;
+  border-radius: 15px;
+  border: none ;
+  background: rgba(40, 48, 54, 0.60);
+  transform: scale(1.05); /*трохі збільшення плакату*/
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);   
+}
+
+.popular-item h3{
+color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+}
+.popular-item:hover h3{
+  color: rgba(255, 255, 255, 0.90);
+}
+.popular-item p{
+  color: rgba(255, 255, 255, 0.55);
+  font-family: Poppins;
+  font-size: 16px;
+}
+.popular-item:hover p{
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.tag {
+  color:rgba(255, 165, 55, 0.55);
+  font-family: 'Poppins';
+  font-size: 18px;
+  text-align: center; 
+  display: block; 
+  margin-top: 5px;
+  /* position: absolute; */
+}
+.popular-item:hover .tag{
+color: #FFA537;
+}
+.actions{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-top: auto;
+} 
+.actions img:hover{
+  border-radius: 8px;
+  background: #283036;
+  box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+} 
+.visit{
+  position: absolute;
+ margin-left: 260px;
+ color: white;
+ padding: 10px 15px;
+ border-radius: 5px;
+ font-size: 14px;
+}
+.popular-item:hover  .visit{
+  background-color: #ff5722;
+  transition: background-color 0.3s;
+}
+.group-button {
+  align-items: center;
+  display: flex;
+  margin: 100px 0px 0px 630px;
+
+  color: #FF6E30;
+  font-family: Poppins;
+  font-size: 20px;
+
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: #1E252B;
+  padding: 15px 25px;
+}
+.group-button:hover{
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+/* BRAND */
+.brand{
+    height: 253px;
 }
