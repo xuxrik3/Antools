@@ -225,7 +225,6 @@ body {
 }
 
 .popular-item:hover{
-  border-radius: 10px;
   border-radius: 15px;
   border: none ;
   background: rgba(40, 48, 54, 0.60);
@@ -292,7 +291,7 @@ color: #FFA537;
 }
 .popular-item:hover  .visit{
   background-color: #ff5722;
-  transition: background-color 0.3s;
+  transition:0.3s;
 }
 .group-button {
   align-items: center;
@@ -309,7 +308,7 @@ color: #FFA537;
   padding: 15px 25px;
 }
 .group-button:hover{
-  transform: scale(1.05); 
+  transform: scale(1.2); 
   cursor: pointer;
 }
 
@@ -343,11 +342,13 @@ font-weight: 500;
 
 /* newcomer */
 .newcomer{
-  height: 700px;
+  height: 800px;
 }
 .newcomer-content-left{
  text-align: left;
- margin-top: 30px;
+ margin-top: 50px;
+ margin-left: 110px;
+ position: absolute;
 }
 .newcomer-content-left h1{
   color: rgba(255, 255, 255, 0.90);
@@ -369,13 +370,101 @@ font-weight: 500;
   background: #FF6E30;
   padding: 15px 25px;
 }
+.newcomer-content-left:hover button{
+  transform: scale(1.05);
+}
 .newcomer-content-right{
-
-  float: right;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 700px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  width: 650px;
+  height: 638px;
+  position: relative;
 }
 .newcomer-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 
 }
 .newcomer-item{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 290px;
+  height: 250px;
+  margin-right: 24px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+.newcomer-item:hover{
+  border-radius: 15px;
+  border: none ;
+  background: rgba(40, 48, 54, 0.60);
+  transform: scale(1.05); /*трохі збільшення плакату*/
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);   
+}
+.newcomer-item-placat{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-left: 20px;
+}
+/* .newcomer-item-placat-text{
+
+} */
+.newcomer-item h3{
+  color: rgba(255, 255, 255, 0.78);
+  font-family: 'Poppins';
+  font-size: 24px;
+}
+.newcomer-item:hover h3{
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Poppins;
+  font-size: 24px;
+}
+.newcomer-item p{
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.tag2{
+  color: rgba(255, 165, 55, 0.55);
+  font-family: 'Poppins';
+  font-size: 18px;
+
+}
+.newcomer-item:hover span{
+  color: #FFA537;
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+.visit2{
+  position: absolute;
+  margin-left: 150px;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.newcomer-item:hover  .visit2{
+  background-color: #ff5722;
+  transition: 0.3s;
+}
+.actions2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 15px;
+    margin-left: 20px;
+
 }
