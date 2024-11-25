@@ -107,7 +107,7 @@ body {
 /* Awesome  */
 
 .awesome {
-  height: 700px;
+  height: 612px;
 }
 .awesome-content {
   position: absolute;
@@ -157,13 +157,22 @@ body {
   padding: 15px 27px;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition:0.3s ease;
 }
 .search-button:hover {
   background-color: #e65a2e;
 }
+.awesome-social{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 110px;
+  padding-right: 30px;
+}
+.awesome-social-is{
+  padding-right: 30px;
+}
 .maskgroup {
-  margin-bottom: 150px;
+  margin-top: -90px;
   margin-left: -15px;
 }
 
@@ -342,7 +351,7 @@ font-weight: 500;
 
 /* newcomer */
 .newcomer{
-  height: 800px;
+  height: 799px;
 }
 .newcomer-content-left{
  text-align: left;
@@ -467,4 +476,54 @@ font-weight: 500;
     margin-bottom: 15px;
     margin-left: 20px;
 
+}
+/* testimonial */
+.testimonial{
+  height: 600px;
+}
+.testimonial-content{
+
+}
+.testimonial-img img{
+  position: absolute;
+  margin-left: 300px;
+}
+.testimonial-text{
+  position: relative;
+  text-align: right;
+  margin-right: 290px;
+  padding-top: 140px;
+ 
+  color: rgba(255, 255, 255, 0.78);
+ font-family: 'Roboto';
+ font-size: 14px;
+ font-style: normal;
+ line-height: 30px;
+ letter-spacing: 0.21px;
+ }
+.testimonial-name-tag{
+  position: relative;
+  margin-top: 70px;
+  margin-left: 420px;
+  margin-right: 735px;
+  padding: 13px 15px;
+
+ border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.10);
+background: rgba(40, 48, 54, 0.20);
+backdrop-filter: blur(25px);
+}
+.testimonial-name-tag h2{
+  position: relative;
+  color: rgba(255, 253, 253, 0.78);
+  font-family: 'Poppins';
+  font-size: 26px;
+  font-style: normal;
+}
+.testimonial-name-tag p{
+  position: relative;
+  color: rgba(255, 253, 253, 0.55);
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-style: normal;
 }
