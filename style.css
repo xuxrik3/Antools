@@ -107,11 +107,16 @@ body {
 /* Awesome  */
 
 .awesome {
-  height: 612px;
+  background-image: url(./img/MaskGroup.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: ;
+  padding: 116px 0 16px 0;
+  /* height: 612px; */
+  
 }
 .awesome-content {
-  position: absolute;
-  padding-top: 111px;
+
 }
 .awesome-content h1 {
   padding-bottom: 30px;
@@ -163,7 +168,6 @@ body {
   background-color: #e65a2e;
 }
 .awesome-social{
-  position: absolute;
   margin-top: 100px;
   margin-left: 110px;
   padding-right: 30px;
@@ -187,7 +191,7 @@ body {
 .popular-text h1 {
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 48px;
   font-style: normal;
   line-height: 130%;
@@ -258,7 +262,7 @@ font-weight: 500;
 }
 .popular-item p{
   color: rgba(255, 255, 255, 0.55);
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 16px;
 }
 .popular-item:hover p{
@@ -272,7 +276,6 @@ font-weight: 500;
   text-align: left; 
   display: block; 
   margin-top: 5px;
-  /* position: absolute; */
 }
 .popular-item:hover .tag{
 color: #FFA537;
@@ -391,7 +394,7 @@ font-weight: 500;
   margin-top: 50px;
   width: 650px;
   height: 638px;
-  position: relative;
+  /* position: relative; */
 }
 .newcomer-content{
   display: flex;
