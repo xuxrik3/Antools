@@ -110,7 +110,7 @@ body {
   background-image: url(./img/MaskGroup.png);
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: ;
+  /* background-size: ; */
   padding: 116px 0 16px 0;
   /* height: 612px; */
   
@@ -411,6 +411,7 @@ font-weight: 500;
   margin-right: 24px;
   border: 1px solid red;
   border-radius: 15px;
+  transition: all 0.3s ease;
 }
 .newcomer-item:hover{
   border-radius: 15px;
@@ -483,24 +484,29 @@ font-weight: 500;
 /* testimonial */
 .testimonial{
   height: 600px;
+  background-image: url(./img/fon.svg);
+  background-position: 28% 50%;
+  background-size: 30%;
+  background-repeat: no-repeat;
 }
-.testimonial-content{
+/* .testimonial-content{
 
-}
+} */
 .testimonial-img img{
   position: absolute;
   margin-left: 300px;
 }
 .testimonial-text{
-  position: relative;
+  /* position: relative; */
   text-align: right;
   margin-right: 290px;
   padding-top: 140px;
  
-  color: rgba(255, 255, 255, 0.78);
- font-family: 'Roboto';
+  /* font-family: 'Roboto'; */
+  /* font-style: normal; */
+
+ color: rgba(255, 255, 255, 0.78);
  font-size: 14px;
- font-style: normal;
  line-height: 30px;
  letter-spacing: 0.21px;
  }
@@ -529,4 +535,44 @@ backdrop-filter: blur(25px);
   font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
+}
+   
+/* join */
+.join{
+  height: 600px;
+}
+.join-conteiner{
+  padding-top: 140px;
+  margin-bottom: 110px; 
+  text-align: center;
+}
+.join-conteiner h1{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 48px;
+  font-weight: 500;
+line-height: 130%;
+}
+.join-conteiner p{
+color: rgba(255, 255, 255, 0.55);
+text-align: center;
+font-family: 'Poppins';
+font-size: 18px;
+margin-top: 25px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.join-container-intup {
+  margin-left: 461px;
+  margin-top: 122px;
+  display: flex;
+  align-items: center;
+  background: #283036;
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  width: 497.659px;
+  height: 64px;
 }
