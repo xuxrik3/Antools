@@ -316,6 +316,7 @@ color: #FFA537;
   border: 1px solid rgba(255, 255, 255, 0.10);
   background: #1E252B;
   padding: 15px 25px;
+  transition: 0.3s all;
 }
 .group-button:hover{
   transform: scale(1.2); 
@@ -410,7 +411,7 @@ font-weight: 500;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 290px;
+  width: 270px;
   height: 250px;
   margin-right: 24px;
   border: 1px solid red;
@@ -467,7 +468,7 @@ font-weight: 500;
   position: absolute;
   margin-left: 150px;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 25px;
   border-radius: 5px;
   font-size: 14px;
 }
@@ -506,6 +507,7 @@ font-weight: 500;
   margin-top: 30px;
 }
 .testimonial-text{
+  position: relative;   
   text-align: right;
   margin-right: 200px;
   padding-top: 165px;
@@ -544,7 +546,24 @@ backdrop-filter: blur(25px);
   font-size: 16px;
   font-style: normal;
 }
-   
+.chevrons{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+.testimonial-chevron1{
+  background: #1E252B;
+  position: relative;
+  margin-left: 50px;
+  /* margin-top: 300px; */
+} 
+.testimonial-chevron2{
+  background: #1E252B;
+  position: relative;
+  margin-left: 950px;
+  
+}   
 /* join */
 .join{
   height: 600px;
@@ -596,7 +615,9 @@ line-height: 30px;
   cursor: pointer;
   transition:0.3s ease;
 }
-
+.search-button2:hover{
+  background-color: #e65a2e;
+}
 /* footer */
 .footer{
   height: 400px;
@@ -638,6 +659,9 @@ line-height: 30px;
 
 .footer-section2 {
 margin-left: 150px;
+color: rgba(255, 255, 255, 0.55);
+font-family: 'Poppins';
+font-size: 16px;
 }
 .footer-section2 h3{
   color: rgba(255, 255, 255, 0.90);
@@ -649,6 +673,9 @@ margin-left: 150px;
 .footer-section2 p{
   margin-top: 10px;
 }
+.footer-section2 a{
+  color: rgba(255, 255, 255, 0.55);
+}
 .footer-section3 {
   margin-left: 115px;
 }
@@ -659,6 +686,14 @@ margin-left: 150px;
 }
 .footer-section3 li{
   margin-top: 10px;
+  color: rgba(255, 255, 255, 0.90);
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+.footer-section3 a{
+color: rgba(255, 255, 255, 0.55);
+font-family: 'Poppins';
+font-size: 16px;
 }
 .footer-section4 {
   margin-left: 115px;
@@ -671,3 +706,8 @@ margin-left: 150px;
 .footer-section4 li{
   margin-top: 10px;
 }
+.footer-section4 a{
+  color: rgba(255, 255, 255, 0.55);
+  font-family: 'Poppins';
+  font-size: 16px;
+  }
