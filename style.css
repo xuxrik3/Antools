@@ -3,9 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-/* :root {
-
-} */
+:root {
+  --bg-body-: #1e252b;
+}
 a {
   text-decoration: none;
 }
@@ -34,7 +34,7 @@ body {
   width: 1180px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid gray; 
+border: 1px solid gray; 
 }
 
 .hero {
@@ -228,9 +228,9 @@ body {
   justify-content: space-between;
   padding: 20px ;
 
- width: 355px;
- height: 270px;
-  border: 1px solid red;
+  width: 355px;
+  height: 270px;
+  border: 1px solid gray; 
   /* position: relative; */
   align-items:  flex-start;
   margin-left: 25px;
