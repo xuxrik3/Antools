@@ -3,9 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-:root {
-  --bg-body-: #1e252b;
-}
+/* :root {
+
+} */
 a {
   text-decoration: none;
 }
@@ -34,7 +34,7 @@ body {
   width: 1180px;
   padding: 0 15px;
   margin: 0 auto;
-  /* border: 1px solid gray; */
+  border: 1px solid gray; 
 }
 
 .hero {
@@ -429,7 +429,7 @@ font-weight: 500;
   width: 270px;
   height: 250px;
   margin-right: 24px;
-  border: 1px solid red;
+  border: 1px solid gray; 
   border-radius: 15px;
   transition: all 0.3s ease;
 }
